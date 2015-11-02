@@ -1,0 +1,154 @@
+/*
+* {
+	border: 1px dotted black;
+} 
+*/
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+body {
+	font-family: robot-regular, Arial, sans-serif;
+	font-size: 13px;
+}
+
+#footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	display: block;
+	margin: 0px;
+	/*width: 99%;*/
+	background-color: #F1F1FF;
+}
+
+#top_right {
+	display: block;
+	margin-top: 20px;
+	margin-right: 35px;
+}
+
+p, ul, ul li, #bar, #top_right div, #buttons * {
+	display: inline-block;
+
+}
+
+#bar {
+	/*border: 1px solid #E0E0E0;*/	
+	display: inline-block;
+	position: relative;
+	margin-top: 35px;
+	
+}
+
+#voice {
+	/*z-index: 1;*/
+	background-image: url(download.png);
+	background-size: 35px 35px;
+	height: 35px;
+	width: 35px;
+	float: right;
+	position: relative;
+	right: 35px;
+	top: 5px;
+	
+}
+
+#input {
+	position: relative;
+	height: 32px;
+	width: 570px;
+	/*float: left;*/
+	display: inline-block;
+}
+
+input {
+	height: 32px;
+	width: 570px;
+	/*float: left;*/
+	display: inline-block;
+}
+	
+#meat {
+	text-align: center;
+	/*display: block;
+	position: relative;
+	clear: both;
+	vertical-align: auto;
+	*/
+	position: absolute;
+    
+    bottom: 0;    
+    right: 0;
+	top: 0;
+	left: 0;
+    margin-top: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+#buttons {
+	margin: 30px;
+}
+
+#offer * {
+	margin: 0px;
+}
+
+#buttons div {
+	margin: 0px 5px;
+}
+
+#logo {
+	background-image: url("./googlelogo_color_272x92dp.png");
+	background-size: 272px 92px;	
+	display: inline-block;
+	width: 272px;
+	height: 92px;
+	position: relative;
+	repeat: none;
+}
+
+#sa {
+	position: absolute;
+	right: -30px;
+	bottom: 0px;
+	font-size: 16px;
+	display: inline-block;
+	color: #C521E0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.backlit a {
+	padding: 10px 15px 10px 15px;
+	background-color: #F0F0F0;	
+	border-radius: 3px;
+	font-weight: bold;
+	color: #888888;
+}
+
+#sign_in  a {
+	background-color: #099CE1;
+	padding: 7px 12px 7px 12px;
+	color: #FFFFFF;
+}
+
+
+.backlit a:hover {
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+	/*box-shadow: 2px 2px 4px black;*/
+	}
+	
